@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculate</title>
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+  <div class="center">
+    <div class="out-line">
+      <div class="container">
+          <input class="display" type="text" id="display" readonly>
+          <input class="point btn btn-sm" type="button" value="." onclick="addToDisplay(1)">
+          <input class="one btn btn-sm" type="button" value="1" onclick="addToDisplay(1)">
+          <input class="two btn-sm btn" type="button" value="2" onclick="addToDisplay(2)">
+          <input class="three btn-sm btn" type="button" value="3" onclick="addToDisplay(3)">
+          <input class="four btn-sm btn" type="button" value="4" onclick="addToDisplay(4)">
+          <input class="five btn-sm btn" type="button" value="5" onclick="addToDisplay(5)">
+          <input class="six btn-sm btn" type="button" value="6" onclick="addToDisplay(6)">
+          <input class="seven btn-sm btn" type="button" value="7" onclick="addToDisplay(7)">
+          <input class="eight btn-sm btn" type="button" value="8" onclick="addToDisplay(8)">
+          <input class="nine btn-sm btn" type="button" value="9" onclick="addToDisplay(9)">
+          <input class="zero btn-mid-h btn" type="button" value="0" onclick="addToDisplay(0)">
+          <input class="plus btn-mid-v btn" type="button" value="+" onclick="addToDisplay('+')">
+          <input class="substract btn-sm btn" type="button" value="-" onclick="addToDisplay('-')">
+          <input class="mult btn-sm btn" type="button" value="*" onclick="addToDisplay('*')">
+          <input class="divsor btn-sm btn" type="button" value="/" onclick="addToDisplay('/')">
+          <input class="result rotate-center btn-mid-v btn" type="button" value="=" onclick="calculate()">
+          <input class="clean btn-sm btn" type="button" value="C" onclick="clearDisplay()">
+      </div>
+    </div>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
